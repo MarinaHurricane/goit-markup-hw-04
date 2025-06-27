@@ -157,12 +157,6 @@ main {
     left: 50%;
     transform: translateX(-50%); */
 }
-
-.hero-content {
-    max-width: 1440px;
-    margin: 0 auto;;
-}
-
 .main-header {
     color: #FFFFFF;
     font-weight: bold;
