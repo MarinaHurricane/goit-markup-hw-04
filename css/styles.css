@@ -158,10 +158,6 @@ main {
     transform: translateX(-50%); */
 }
 
-.hero-section {
-    max-width: 1440px;
-    margin: 0 auto;
-}
 .main-header {
     color: #FFFFFF;
     font-weight: bold;
