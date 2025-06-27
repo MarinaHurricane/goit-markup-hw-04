@@ -26,6 +26,7 @@ ul {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    max-width: 1440px;
 }
 
 .header-nav {
@@ -152,7 +153,7 @@ main {
     background-position: center;
     background-size: cover;
     position: relative;
-    max-width: 1440px;
+    /* max-width: 1440px; */
 }
 
 .main-header {
@@ -217,9 +218,13 @@ main {
 }
 
 .icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
     border: 1px solid #8E8F99;
     border-radius: 4px;
-    padding: 24px 100px;
+    /* padding: 24px 100px; */
     margin-bottom: 8px;
     background-color: #F4F4FD;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
