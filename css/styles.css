@@ -158,6 +158,10 @@ main {
     transform: translateX(-50%); */
 }
 
+.hero-content {
+    max-width: 1440px;
+}
+
 .main-header {
     color: #FFFFFF;
     font-weight: bold;
