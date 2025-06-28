@@ -282,6 +282,7 @@ main {
     
 }
 
+.team-list-item:hover .link,
 .team-list-item:hover .link {
     background-color: #404BBF;
 }
@@ -296,11 +297,13 @@ main {
     display: flex;
     gap: 24px;
     padding: 0 16px;
+    justify-content: center;
 }
 
 .team-icon {
     width: 16px;
     height: 16px;
+    fill: #f4f4fd;
 }
 
 .icons-list .link {
@@ -308,6 +311,7 @@ main {
     width: 40px;
     height: 40px;
     background-color: #4D5AE5;
+    fill: #f4f4fd;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
