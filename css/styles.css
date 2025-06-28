@@ -320,8 +320,8 @@ main {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icons-list-item:hover .link,
-.icons-list-item:focus .link {
+.icons-list-item .link:hover,
+.icons-list-item .link:focus {
     background-color: #404bbf;
 }
 
