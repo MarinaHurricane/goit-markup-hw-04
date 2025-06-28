@@ -282,7 +282,9 @@ main {
     
 }
 
-.team-list-item:focus .link,
+.team-list-item:focus .link {
+    background-color: #404BBF;
+}
 .team-list-item:hover .link {
     background-color: #404BBF;
 }
