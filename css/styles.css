@@ -371,7 +371,11 @@ main {
 
 .footer-container {
     display: flex;
-    gap: 120px;
+    align-items: baseline;
+}
+
+.footer-section {
+    margin-right: 120px;
 }
 
 .footer-logo {
@@ -394,7 +398,7 @@ color: #FFFFFF;
 
 .footer-paragraph {
     line-height: 1.5;
-    color: #F4F4FD;
+    color: #FFFFFF;
     max-width: 264px;
 }
 
@@ -408,6 +412,7 @@ color: #FFFFFF;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-icons-list .link:hover {
+.footer-icons-list .link:hover,
+.footer-icons-list .link:focus {
     background-color: #31D0AA;
 }
